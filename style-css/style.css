@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* ______________header________________ */
+.header-content{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.header-left{
+    width: 100%;
+    height: auto;
+    color: #cacaca;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-right{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right p {
+    margin-left: 32px;
+    font-size: 14px;
+}
+.start-btn{
+    padding: 18px 24px;
+    color: white;
+    background: black;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* ______________first-section________________ */
+
+.first-section{
+    height: 50rem;
+    width: 100%;
+    color: white;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.first-left{
+    width: 100%;
+    padding-left: 5rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+}
+.first-h1{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.first-p{
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.first-sign{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.sign-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sign-icon i{
+    color: blue;
+    font-size: 30px;
+}
+.first-right{
+    width: 100%;
+    color: black;
+    padding-left: 50px;
+    padding-top: 5rem;
+}
+.form-content{
+    background: white;
+    display: flex;
+    height: 27rem;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    padding-left: 48px;
+    margin-right: 10rem;
+    border-radius: 20px;
+}
+.object{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+
+}
+.form-fill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.font-label{
+    font-weight: bold;
+}
+.form-fill input{
+    width: 56%;
+    font-size: 16px;
+    padding: 24px 24px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn{
+    width: 94%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.child-btn{
+    font-size: 14px;
+    padding: 24px ;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background: red;
+    color: white;
+}
+.child-btn:hover{
+    background: #000;
+    margin-top: -5px;
+    transition: 0.5s ;
+    
+}
+
+
+
+/* ______________Second-section_______________ */
+
+
+
+
+
+/* ______________Third-sectioin________________ */
+
+
+
+
+/* ______________Footer________________ */
